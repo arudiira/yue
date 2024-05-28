@@ -1,8 +1,8 @@
 [build]
   base = "./"
   publish = "./dist/"
-  command = "npm run build"
+  command = "npm run build" "npm install stable@latest" 
 
 [template.environment]
-  NAME = "enter Name of the receiver"
-  PIC = "enter web url of the receiver's image"
+  NAME = "yue"
+  PIC = "https://telegra.ph/Bday-05-28-2"
