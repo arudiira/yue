@@ -10,7 +10,7 @@ const {
 
 require("dotenv").config();
 
-if (!process.env.yue) throw new Error("Please specify NAME in environment.");
+if (!process.env.example) throw new Error("Please specify NAME in environment.");
 if (!process.env.scroll) throw new Error("Please specify PIC in environment.");
 
 const picPath = process.env.PIC;
