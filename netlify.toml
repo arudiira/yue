@@ -1,7 +1,8 @@
 [build]
   base = "./"
   publish = "./dist/"
-  command = "npm run build""npm install stable@latest" 
+  command = "npm run build"
+  command = "npm install stable@latest" 
 
 [template.environment]
   NAME = "yue"
