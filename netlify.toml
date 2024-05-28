@@ -2,7 +2,7 @@
   base = "./"
   publish = "./dist/"
   command 1 = "npm install stable@latest"
-  command = "npm run build"
+  command 2 = "npm run build"
 
 [template.environment]
   NAME = "yue"
